@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    color: #333;
+    overflow-x:hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    padding: 1.5rem 8rem;
+    border-bottom: 3px solid #3693ff;
+}
+
+.navbar__title {
+    color: #3693ff;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__list__item  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+}
+
+.navbar__list__item a:hover {
+background-color: #3693ff;
+}
+
+.image {
+    width: 100%;
+}
+
